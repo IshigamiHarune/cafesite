@@ -64,6 +64,18 @@ body {
     margin-top: 68px;
     background-color: red;
     height: 400px;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.overlay-image {
+    position: absolute;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    margin: 100px 0 0 20px;
 }
 
 /* スクロール時のヘッダースタイル変更（JavaScriptのコードがない場合は追加） */
@@ -76,8 +88,8 @@ footer {
     background-color: #333;
     color: #fff;
     text-align: center;
-    position: fixed;
-    bottom: 0;
+    /* position: fixed; */
+    /* bottom: 0; */
     width: 100%;
     font-size: smaller;
 }

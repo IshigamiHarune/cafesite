@@ -12,6 +12,10 @@
 	display: block;
 	opacity: 0;
 	text-align: center; /* 画像を中央寄せにする */
+	position: absolute;
+    top: 0;
+    left: 0;
+    transition: opacity 0.5s ease-in-out;
 }
 #graphic ul li:nth-child(2),
 #graphic ul li:nth-child(3) {
@@ -39,6 +43,7 @@
 	height: auto; /* アスペクト比を維持して高さが自動調整されるように設定 */
     width: 80%; /* 幅も自動調整されるように設定 */
 }
+  
 @media screen and (max-width: 600px) {
     #graphic {
 	width: 300px;
