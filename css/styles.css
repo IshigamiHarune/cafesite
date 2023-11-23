@@ -92,6 +92,7 @@ footer {
     /* bottom: 0; */
     width: 100%;
     font-size: smaller;
+    padding: 1px 0 1px 0;
 }
 
 footer nav {
