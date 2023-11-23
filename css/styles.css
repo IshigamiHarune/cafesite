@@ -70,12 +70,16 @@ body {
     z-index: 1;
 }
 
+.graphic img{
+    width: 50%;
+}
+
 .overlay-image {
     position: absolute;
     z-index: 999;
     top: 0;
     left: 0;
-    margin: 100px 0 0 20px;
+    margin: 110px auto 0 10px;
 }
 
 /* スクロール時のヘッダースタイル変更（JavaScriptのコードがない場合は追加） */
