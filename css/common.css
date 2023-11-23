@@ -1,0 +1,42 @@
+#graphic {
+	width: 430px;
+	margin:100px auto 30px auto
+}
+#graphic ul {
+	display: block;
+	list-style: none;
+	padding-left: 0;
+	position: relative;
+}
+#graphic ul li {
+	display: block;
+	opacity: 0;
+	text-align: center; /* 画像を中央寄せにする */
+}
+#graphic ul li:nth-child(2),
+#graphic ul li:nth-child(3) {
+	position: absolute;
+	top: 0;
+}
+#graphic ul li:nth-child(1) {
+	position: relative;
+	z-index: 3;
+}
+#graphic ul li:nth-child(2) {
+	z-index: 2;
+}
+#graphic ul li:nth-child(3) {
+	z-index: 1;
+}
+#graphic ul li.now {
+	opacity: 1;
+}
+#graphic ul li.now:nth-child(1) {
+	z-index: 0;
+}
+#graphic ul li img {
+	vertical-align: middle; /* 画像を垂直方向に中央寄せにする */
+	height: auto; /* アスペクト比を維持して高さが自動調整されるように設定 */
+    width: 80%; /* 幅も自動調整されるように設定 */
+}
+

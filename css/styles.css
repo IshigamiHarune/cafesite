@@ -1,0 +1,162 @@
+@import url(common.css);
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.navbar {
+    background-color: #333;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    transition: background-color 0.3s ease;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    margin: 0 auto 0 auto;
+    padding: 0;
+}
+
+.menu li {
+    margin-right: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    display: block;
+    padding: 10px;
+}
+
+.menu-toggle {
+    cursor: pointer;
+    display: none;
+}
+
+.bar {
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin: 5px 0;
+}
+
+.narmenu {
+    color: #fff;
+    font-size: smaller;
+}
+
+/* .content {
+    margin-top: 68px;
+    background-color: red;
+    height: 400px;
+} */
+
+.graphic {
+    margin-top: 68px;
+    background-color: red;
+    height: 400px;
+}
+
+/* スクロール時のヘッダースタイル変更（JavaScriptのコードがない場合は追加） */
+body.sticky .navbar {
+    background-color: #555;
+}
+
+/* フッターのスタイルを追加 */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: smaller;
+}
+
+footer nav {
+    margin: 0 0 10px 0;
+}
+
+/* フッター内のリンクのスタイル */
+footer a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+/* フッター内のリンクのホバー時のスタイル */
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* レスポンシブなスタイルを追加 */
+@media screen and (max-width: 600px) {
+    .menu {
+        list-style: none;
+        display: flex;
+        margin: 0;
+        padding: 0;
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 59px;
+        right: 0;
+        background-color: #333;
+        width: 100%;
+    }
+    .barmenu {
+        font-size: x-small;
+        color: #fff;
+    }
+
+    .menu.show {
+        display: flex;
+    }
+
+    .menu a {
+        margin: 10px 10px 10px 44px;
+        text-align: right;
+    }
+
+    .menu-toggle {
+        display: block;
+        margin: 0 30px 0 auto;
+    }
+
+    /* .content {
+        margin-top: 71px;;
+    } */
+    
+    .graphic{
+        margin-top: 71px;;
+    }
+
+    footer {
+        font-size: smaller;
+    }
+
+    footer a {
+        margin: 0 5px; /* リンクのマージンを調整 */
+    }
+}
+
+/* 追加: 600px以上の場合はハンバーガーメニューを非表示にする */
+@media screen and (min-width: 601px) {
+    .menu {
+        display: flex !important;
+    }
+
+    .menu-toggle {
+        display: none !important;
+    }
+}
