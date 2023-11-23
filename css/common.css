@@ -1,4 +1,5 @@
 #graphic {
+	width: 480px;
 	margin:100px auto 30px auto
 }
 #graphic ul {
@@ -38,4 +39,9 @@
 	height: auto; /* アスペクト比を維持して高さが自動調整されるように設定 */
     width: 80%; /* 幅も自動調整されるように設定 */
 }
-
+@media screen and (max-width: 600px) {
+    #graphic {
+	width: 300px;
+	margin:100px auto 30px auto
+    }
+}
