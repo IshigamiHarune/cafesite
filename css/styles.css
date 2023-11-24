@@ -54,15 +54,13 @@ body {
     font-size: smaller;
 }
 
-/* .content {
-    margin-top: 68px;
+.content {
     background-color: red;
-    height: 400px;
-} */
+    height: 400px; /* 内容に応じて変更 */
+}
 
 .graphic {
     margin-top: 68px;
-    background-color: red;
     height: 400px;
     position: relative;
     top: 0;
