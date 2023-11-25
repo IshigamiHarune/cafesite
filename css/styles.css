@@ -6,7 +6,7 @@ body {
 }
 
 .navbar {
-    background-color: #333;
+    background-color: #f29b8f;
     padding: 15px;
     display: flex;
     justify-content: space-between;
@@ -55,11 +55,12 @@ body {
 }
 
 .content {
-    background-color: red;
+    background-color: 8090c0;
     height: 400px; /* 内容に応じて変更 */
 }
 
 .graphic {
+    background-color: #f7f2eb;
     margin-top: 68px;
     height: 400px;
     position: relative;
@@ -87,7 +88,7 @@ body.sticky .navbar {
 
 /* フッターのスタイルを追加 */
 footer {
-    background-color: #333;
+    background-color: #f29b8f;
     color: #fff;
     text-align: center;
     /* position: fixed; */
