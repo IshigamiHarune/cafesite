@@ -73,7 +73,7 @@ body.sticky .navbar {
 ーーーーーーーーーーーーーーーーーーーーーーーー*/
 .graphic {
     margin-top: 68px;
-    height: 990px;
+    height: 940px;
     /* position: relative; */
     top: 0;
     left: 0;
@@ -184,7 +184,7 @@ footer a:hover {
     
     .graphic{
         margin-top: 71px;
-        height: 390px;
+        height: 380px;
     }
 
     footer {
