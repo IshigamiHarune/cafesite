@@ -73,7 +73,7 @@ body.sticky .navbar {
 ーーーーーーーーーーーーーーーーーーーーーーーー*/
 .graphic {
     margin-top: 68px;
-    height: auto;
+    height: 990px;
     /* position: relative; */
     top: 0;
     left: 0;
@@ -81,8 +81,12 @@ body.sticky .navbar {
 }
 
 #graphic {
-    width: 1000px;
+    position: relative;
+    overflow: hidden;
     width: 100%;
+    max-width: 900px;
+    height: 920px;
+    /* width: 100%; */
 }
 
 .overlay-image {
