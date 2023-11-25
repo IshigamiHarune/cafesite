@@ -73,7 +73,7 @@ body.sticky .navbar {
 ーーーーーーーーーーーーーーーーーーーーーーーー*/
 .graphic {
     margin-top: 68px;
-    height: 990px;
+    height: auto;
     /* position: relative; */
     top: 0;
     left: 0;
