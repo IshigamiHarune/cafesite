@@ -9,19 +9,6 @@ body {
 /*ーーーーーーーーーーーーーーーーーーーーーーー
 ヘッダー
 ーーーーーーーーーーーーーーーーーーーーーーーー*/
-.navbar {
-    background-color: #f29b8f;
-    padding: 15px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    z-index: 1000;
-    transition: background-color 0.3s ease;
-}
-
 .menu {
     list-style: none;
     display: flex;
@@ -55,6 +42,19 @@ body.sticky .navbar {
 /*ーーーーーーーーーーーーーーーーーーーーーーー
 ハンバーガー
 ーーーーーーーーーーーーーーーーーーーーーーーー*/
+.navbar {
+    background-color: #f29b8f;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    transition: background-color 0.3s ease;
+}
+
 .bar {
     width: 25px;
     height: 3px;
