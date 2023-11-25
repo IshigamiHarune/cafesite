@@ -4,7 +4,7 @@ body {
     margin: 0;
     font-family: 'Arial', sans-serif;
     background-color: #f7f2eb;
-    color: #fff;
+    color: #f7f2eb;
 }
 
 .navbar {
@@ -57,15 +57,10 @@ body {
     font-size: smaller;
 }
 
-.content {
-    background-color: #8090c0;
-    height: 400px; /* 内容に応じて変更 */
-}
-
 .graphic {
     margin-top: 68px;
-    height: 480px;
-    position: relative;
+    height: 495px;
+    /* position: relative; */
     top: 0;
     left: 0;
     z-index: 1;
@@ -83,7 +78,21 @@ body {
     margin: 110px auto 0 10px;
 }
 
-/* スクロール時のヘッダースタイル変更（JavaScriptのコードがない場合は追加） */
+.aboutShop {
+    background-color: #8090c0;
+    height: 400px; /* 内容に応じて変更 */
+    text-align: center;
+}
+.aboutShop h1{
+    padding-top: 0.6em;
+}
+.shopMenu{
+    color: #f29b8f;
+    height: 400px; /* 内容に応じて変更 */
+    text-align: center;
+}
+
+/* スクロール時のヘッダースタイル変更 */
 body.sticky .navbar {
     background-color: #555;
 }
@@ -108,7 +117,6 @@ footer nav {
 footer a {
     color: #fff;
     text-decoration: none;
-    font-weight: bold;
     margin: 0 10px;
 }
 
@@ -156,7 +164,8 @@ footer a:hover {
     } */
     
     .graphic{
-        margin-top: 71px;;
+        margin-top: 71px;
+        height: 313px;
     }
 
     footer {

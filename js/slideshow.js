@@ -25,10 +25,7 @@
  
 		 // point→"image+(next_classの値)"の画像のli
 		 var point = $('#graphic ul li img[class="image'+ next_class +'"]').parent();
- 
-		 // 1周目　image1　ペンギン
-		 // 2周目　image2　パンダ
-		 // 3周目　image3　トラ
+
 		 $('#graphic ul li img[class="image'+ now_class +'"]').parent().fadeOut(1000, function() {
 			 // "image+(now_classの値)"の画像のliから.nowを外す
 			 $(this).removeClass('now').css('display','block');
@@ -42,13 +39,6 @@
 			 // "image+(next_classの値)"の画像のliに.nowを付与
 			 point.addClass("now");
 			 console.log("pointの画像　" + "image" + next_class );
-			 if(now_class == 1){
-				 console.log(count + "回目　" + now_class + "(now_class)　" + next_class + "(next_class)　パンダになった？");
-			 }else if(now_class == 2){
-				 console.log(count + "回目　" + now_class + "(now_class)　" + next_class + "(next_class)　トラになった？");
-			 }else if(now_class == 3){
-				 console.log(count + "回目　" + now_class + "(now_class)　" + next_class + "(next_class)　ペンギンになった？");
-			 }
 			 // now_classにnext_classを代入
 			 //1周目　now_class=2
 			 //2周目　now_class=3
@@ -63,26 +53,3 @@
 		 setInterval(changeImage, 4000);
 	 }
  });
- 
- /* 
- <div id="graphic">
-	 <ul>
-		 <li class="now"><img src="images/graphic1.png" alt="ペンギン" class="image1"></li>
-		 <li><img src="images/graphic2.png" alt="パンダ" class="image2"></li>
-		 <li><img src="images/graphic3.png" alt="トラ" class="image3"></li> 
-	 </ul>
- </div>
-
- #graphic ul li.now {
-    opacity: 1;
-    参考
-    https://developer.mozilla.org/ja/docs/Web/CSS/opacity
-}
-#graphic ul li.now:nth-child(1) {
-    参考
-    https://developer.mozilla.org/ja/docs/Web/CSS/:nth-child
-    z-index: 0;
-    参考
-    https://developer.mozilla.org/ja/docs/Web/CSS/z-index
-}
- */
