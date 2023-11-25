@@ -18,12 +18,13 @@ body {
 
 .menu li {
     margin-right: 20px;
+    background-color: f29b8f;
 }
 
 .menu a {
     background-color: #f29b8f;
     text-decoration: none;
-    color: #fff;
+    color: #f7f2eb;
     font-weight: bold;
     display: block;
     padding: 10px;
@@ -115,7 +116,7 @@ body.sticky .navbar {
 ーーーーーーーーーーーーーーーーーーーーーーーー*/
 footer {
     background-color: #f29b8f;
-    color: #fff;
+    color: #f7f2eb;
     text-align: center;
     /* position: fixed; */
     /* bottom: 0; */
@@ -129,7 +130,7 @@ footer nav {
 }
 
 footer a {
-    color: #fff;
+    color: #f7f2eb;
     text-decoration: none;
     margin: 0 10px;
 }
@@ -155,7 +156,7 @@ footer a:hover {
     }
     .barmenu {
         font-size: x-small;
-        color: #fff;
+        color: #f7f2eb;
     }
 
     .menu.show {
