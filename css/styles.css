@@ -3,6 +3,7 @@
 body {
     margin: 0;
     font-family: 'Arial', sans-serif;
+    background-color: #f7f2eb;
 }
 
 .navbar {
@@ -30,6 +31,7 @@ body {
 }
 
 .menu a {
+    background-color: #f29b8f;
     text-decoration: none;
     color: #fff;
     font-weight: bold;
@@ -60,9 +62,8 @@ body {
 }
 
 .graphic {
-    background-color: #f7f2eb;
     margin-top: 68px;
-    height: 400px;
+    height: 480px;
     position: relative;
     top: 0;
     left: 0;
