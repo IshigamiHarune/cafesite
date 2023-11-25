@@ -77,7 +77,9 @@ body {
     left: 0;
     margin: 110px auto 0 10px;
 }
-
+/*ーーーーーーーーーーーーーーーーーーーーーーー
+お店について
+ーーーーーーーーーーーーーーーーーーーーーーーー*/
 .aboutShop {
     background-color: #8090c0;
     height: 400px; /* 内容に応じて変更 */
@@ -86,6 +88,9 @@ body {
 .aboutShop h1{
     padding-top: 0.6em;
 }
+/*ーーーーーーーーーーーーーーーーーーーーーーー
+飲食メニュー
+ーーーーーーーーーーーーーーーーーーーーーーーー*/
 .shopMenu{
     color: #f29b8f;
     height: 400px; /* 内容に応じて変更 */
