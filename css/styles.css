@@ -6,7 +6,9 @@ body {
     background-color: #f7f2eb;
     color: #f7f2eb;
 }
-
+/*ーーーーーーーーーーーーーーーーーーーーーーー
+ヘッダー
+ーーーーーーーーーーーーーーーーーーーーーーーー*/
 .navbar {
     background-color: #f29b8f;
     padding: 15px;
@@ -45,18 +47,29 @@ body {
     display: none;
 }
 
+/* スクロール時のヘッダースタイル */
+body.sticky .navbar {
+    background-color: #555;
+}
+
+/*ーーーーーーーーーーーーーーーーーーーーーーー
+ハンバーガー
+ーーーーーーーーーーーーーーーーーーーーーーーー*/
 .bar {
     width: 25px;
     height: 3px;
-    background-color: #fff;
+    background-color: #f7f2eb;
     margin: 5px 0;
 }
 
-.narmenu {
-    color: #fff;
+.barmenu {
+    color: #f7f2eb;
     font-size: smaller;
 }
 
+/*ーーーーーーーーーーーーーーーーーーーーーーー
+グラフィック
+ーーーーーーーーーーーーーーーーーーーーーーーー*/
 .graphic {
     margin-top: 68px;
     height: 495px;
@@ -97,12 +110,9 @@ body {
     text-align: center;
 }
 
-/* スクロール時のヘッダースタイル変更 */
-body.sticky .navbar {
-    background-color: #555;
-}
-
-/* フッターのスタイルを追加 */
+/*ーーーーーーーーーーーーーーーーーーーーーーー
+フッター
+ーーーーーーーーーーーーーーーーーーーーーーーー*/
 footer {
     background-color: #f29b8f;
     color: #fff;
@@ -115,17 +125,15 @@ footer {
 }
 
 footer nav {
-    margin: 0 0 10px 0;
+    margin: 10px 0 10px 0;
 }
 
-/* フッター内のリンクのスタイル */
 footer a {
     color: #fff;
     text-decoration: none;
     margin: 0 10px;
 }
 
-/* フッター内のリンクのホバー時のスタイル */
 footer a:hover {
     text-decoration: underline;
 }
