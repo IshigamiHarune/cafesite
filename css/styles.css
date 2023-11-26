@@ -5,6 +5,7 @@ body {
     font-family: 'Arial', sans-serif;
     background-color: #f7e6cf;
     color: #f7e6cf;
+    font-size: medium;
 }
 /*ーーーーーーーーーーーーーーーーーーーーーーー
 ヘッダー
@@ -33,6 +34,10 @@ body {
 .menu-toggle {
     cursor: pointer;
     display: none;
+}
+
+.shopLogo img{
+    height: 40px;
 }
 
 /* スクロール時のヘッダースタイル */
@@ -79,7 +84,6 @@ body.sticky .navbar {
     left: 0;
     z-index: 1;
 }
-
 #graphic {
     position: relative;
     overflow: hidden;
@@ -88,7 +92,6 @@ body.sticky .navbar {
     height: 920px;
     /* width: 100%; */
 }
-
 .overlay-image {
     position: absolute;
     z-index: 999;
@@ -112,10 +115,21 @@ body.sticky .navbar {
 ーーーーーーーーーーーーーーーーーーーーーーーー*/
 .shopMenu{
     color: #f29b8f;
-    height: 400px; /* 内容に応じて変更 */
+    width: 510px;
     text-align: center;
+    margin: auto;
+    height: 400px;
 }
-
+#menuDetail figure{
+    width: 170px;
+    margin: 0 0 15px auto;
+    float:left;
+    overflow: hidden;
+    /* text-align: center; */
+}
+#menuDetail figure:first-child{
+    margin-left: 0;
+}
 /*ーーーーーーーーーーーーーーーーーーーーーーー
 フッター
 ーーーーーーーーーーーーーーーーーーーーーーーー*/
@@ -133,8 +147,7 @@ footer {
 footer nav {
     margin: 10px 0 10px 0;
 }
-
-footer a {
+.navbar a, footer a {
     color: #f7e6cf;
     text-decoration: none;
     margin: 0 10px;
@@ -154,9 +167,8 @@ footer a:hover {
         display: none;
         flex-direction: column;
         position: absolute;
-        top: 59px;
+        top: 70px;
         right: 0;
-        background-color: #333;
         width: 100%;
     }
     .barmenu {
