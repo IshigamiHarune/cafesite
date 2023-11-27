@@ -7,6 +7,9 @@ body {
     color: #faf3e9;
     font-size: medium;
 }
+h1{
+    font-size: 2em;
+}
 /*ーーーーーーーーーーーーーーーーーーーーーーー
 ヘッダー
 ーーーーーーーーーーーーーーーーーーーーーーーー*/
@@ -118,7 +121,7 @@ body.sticky .navbar {
     width: 510px;
     text-align: center;
     margin: auto;
-    height: 350px;
+    height: 375px;
 }
 #menuDetail{
     font-style: italic;
@@ -142,7 +145,7 @@ body.sticky .navbar {
     text-align: center;
 }
 .pickyAbout h1{
-    padding: 10px 0 0 0;
+    padding: 30px 0 0 0;
 }
 
 /*ーーーーーーーーーーーーーーーーーーーーーーー
