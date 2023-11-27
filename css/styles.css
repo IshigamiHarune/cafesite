@@ -228,23 +228,4 @@ footer a:hover {
     .menu-toggle {
         display: none !important;
     }
-    .graphic {
-        margin-top: 68px;
-        height: 940px; /* 大きな画面用の高さ */
-    }
-
-    .shopMenu {
-        height: 400px; /* 大きな画面用の高さ */
-        overflow-x: visible; /* 横スクロールを有効に */
-    }
-
-    #menuDetail {
-        display: block; /* 子要素をブロック要素に戻す */
-        justify-content: space-between; /* 子要素を均等に配置 */
-    }
-
-    .menuDetail figure {
-        width: 30%; /* 幅を調整して3列に */
-        margin: 0 0 15px 0;
-    }
 }
