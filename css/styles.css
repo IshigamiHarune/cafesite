@@ -120,6 +120,9 @@ body.sticky .navbar {
     margin: auto;
     height: 350px;
 }
+#menuDetail{
+    font-style: italic;
+}
 #menuDetail figure{
     width: 170px;
     margin: 0 0 15px auto;
