@@ -131,17 +131,6 @@ body.sticky .navbar {
     margin-left: 0;
 }
 /*ーーーーーーーーーーーーーーーーーーーーーーー
-当店のこだわり
-ーーーーーーーーーーーーーーーーーーーーーーーー*/
-.pickyAbout {
-    background-color: #8090c0;
-    height: 400px; /* 内容に応じて変更 */
-    text-align: center;
-}
-.pickyAbout h1{
-}
-
-/*ーーーーーーーーーーーーーーーーーーーーーーー
 フッター
 ーーーーーーーーーーーーーーーーーーーーーーーー*/
 footer {
@@ -192,7 +181,7 @@ footer a:hover {
     }
 
     .menu a {
-        margin: -3px 10px 10px 44px;
+        margin: 10px 10px 10px 44px;
         text-align: right;
     }
 
