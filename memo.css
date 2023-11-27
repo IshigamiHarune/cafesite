@@ -1,0 +1,31 @@
+/*ーーーーーーーーーーーーーーーーーーーーーーー
+飲食メニュー
+ーーーーーーーーーーーーーーーーーーーーーーーー*/
+.shopMenu{
+    color: #f29b8f;
+    width: 510px;
+    text-align: center;
+    margin: auto;
+    height: 400px;
+}
+#menuDetail figure{
+    width: 170px;
+    margin: 0 0 15px auto;
+    float:left;
+    overflow: hidden;
+    /* text-align: center; */
+}
+#menuDetail figure:first-child{
+    margin-left: 0;
+}
+/*ーーーーーーーーーーーーーーーーーーーーーーー
+当店のこだわり
+ーーーーーーーーーーーーーーーーーーーーーーーー*/
+.pickyAbout {
+    background-color: #8090c0;
+    height: 400px; /* 内容に応じて変更 */
+    text-align: center;
+}
+.pickyAbout h1{
+    padding-top: 0.6em;
+}
