@@ -3,8 +3,8 @@
 body {
     margin: 0;
     font-family: 'Arial', sans-serif;
-    background-color: #f7e6cf;
-    color: #f7e6cf;
+    background-color: #faf3e9;
+    color: #faf3e9;
     font-size: medium;
 }
 /*ーーーーーーーーーーーーーーーーーーーーーーー
@@ -25,7 +25,7 @@ body {
 .menu a {
     background-color: #f29b8f;
     text-decoration: none;
-    color: #f7e6cf;
+    color: #faf3e9;
     font-weight: bold;
     display: block;
     padding: 10px;
@@ -64,12 +64,12 @@ body.sticky .navbar {
 .bar {
     width: 25px;
     height: 3px;
-    background-color: #f7e6cf;
+    background-color: #faf3e9;
     margin: 5px 0;
 }
 
 .barmenu {
-    color: #f7e6cf;
+    color: #faf3e9;
     font-size: smaller;
 }
 
@@ -146,7 +146,7 @@ body.sticky .navbar {
 ーーーーーーーーーーーーーーーーーーーーーーーー*/
 footer {
     background-color: #f29b8f;
-    color: #f7e6cf;
+    color: #faf3e9;
     text-align: center;
     /* position: fixed; */
     /* bottom: 0; */
@@ -159,7 +159,7 @@ footer nav {
     margin: 10px 0 10px 0;
 }
 .navbar a, footer a {
-    color: #f7e6cf;
+    color: #faf3e9;
     text-decoration: none;
     margin: 0 10px;
 }
@@ -184,7 +184,7 @@ footer a:hover {
     }
     .barmenu {
         font-size: x-small;
-        color: #f7e6cf;
+        color: #faf3e9;
     }
 
     .menu.show {
