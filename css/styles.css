@@ -37,7 +37,7 @@ body {
 }
 
 .shopLogo img{
-    height: 40px;
+    height: 42px;
 }
 
 /* スクロル時のヘッダスタイル */
@@ -97,11 +97,15 @@ body.sticky .navbar {
 -----------------------------------------------*/
 .aboutShop {
     background-color: #8090c0;
-    height: 400px; /* 内容に応じて変更 */
+    height: 570px; /* 内容に応じて変更 */
     text-align: center;
 }
 .aboutShop h1{
     padding-top: 0.6em;
+}
+.aboutShop img{
+    width: 500px;
+    height: 300px;
 }
 /*-----------------------------------------------
 飲食メニュー
@@ -111,7 +115,7 @@ body.sticky .navbar {
     width: 510px;
     text-align: center;
     margin: auto;
-    height: 500px;
+    height: 680px;
 }
 .shopMenu article{
     margin: 100px 0 20px 0;
@@ -126,10 +130,12 @@ body.sticky .navbar {
 #menuDetail h1 span{
     padding: 10px;
     background: linear-gradient(#e6646580, #9198e580);
-    /* -webkit-background-clip: text; */
+    /* -webkit-background-clip: text;
     -moz-background-clip: text;
-    background-clip: text;
+    background-clip: text; */
     color: #faf3e9;
+    display: inline-block;
+    width: 280px;
 }
 #menuDetail figure{
     width: 170px;
@@ -141,12 +147,17 @@ body.sticky .navbar {
 #menuDetail figure:first-child{
     margin-left: 0;
 }
+#menuDetail img{
+    width: 180px;
+    height: 180px;
+    margin: 0 15px 0 15px;
+}
 /*-----------------------------------------------
 当店のこだわり
 -----------------------------------------------*/
 .pickyAbout {
     background-color: #8090c0;
-    height: 400px; /* 内容に応じて変更 */
+    height: 570px; /* 内容に応じて変更 */
     text-align: center;
 }
 .pickyAbout h1{
@@ -183,6 +194,12 @@ footer a:hover {
 
 /* レスポンシブなスタイルを追加 */
 @media screen and (max-width: 600px) {
+    /*------------お店について------------*/
+    .aboutShop img {
+        width: 50%;
+        height: 50%;
+    }
+    /*------------飲食メニュー------------*/
     #menuDetail figure{
         width: auto;
     }
@@ -197,11 +214,12 @@ footer a:hover {
     }
     .shopMenu {
         width: auto;
-        height: 1640px;
+        height: 1680px;
     }
     .shopMenu article {
         margin: 60px 0 20px 0;
-    }  
+    }
+    /*------------ヘッダー------------*/
     .menu {
         list-style: none;
         display: flex;
@@ -232,12 +250,12 @@ footer a:hover {
         display: block;
         margin: 0 30px 0 auto;
     }
-
+    /*------------グラフィック------------*/
     .graphic{
         margin-top: 71px;
         height: 410px;
     }
-
+    /*------------フッター------------*/
     footer {
         font-size: smaller;
     }
@@ -247,8 +265,16 @@ footer a:hover {
     }
 }
 
-/* 追加: 600px以上の場合はハンバーガメニューを非表示にする */
 @media screen and (min-width: 601px) {
+    .navbar{
+        padding: 20px;
+    }
+    .navbar a{
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+
+    /* 600px以上の場合はハンバーガメニューを非表示にする */
     .menu {
         display: flex !important;
     }
