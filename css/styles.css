@@ -139,7 +139,7 @@ body.sticky .navbar {
 }
 #menuDetail figure{
     width: 170px;
-    margin: 0 0 50px auto;
+    margin: 0 auto 50px auto;
     float:left;
     overflow: hidden;
     /* text-align: center; */
