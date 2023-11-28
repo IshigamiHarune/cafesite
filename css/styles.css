@@ -1,4 +1,5 @@
 @import url(common.css);
+@import url(reset.css);
 
 body {
     margin: 0;
@@ -101,18 +102,21 @@ body.sticky .navbar {
     text-align: center;
 }
 .aboutShop h1{
-    padding-top: 0.6em;
+    padding-top: 20px;
 }
 .aboutShop img{
     width: 500px;
     height: 300px;
+}
+.aboutShop p{
+    margin: 20px;
 }
 /*-----------------------------------------------
 飲食メニュー
 -----------------------------------------------*/
 .shopMenu{
     color: #f29b8f;
-    width: 510px;
+    width: 800px;
     text-align: center;
     margin: auto;
     height: 680px;
@@ -120,14 +124,14 @@ body.sticky .navbar {
 .shopMenu article{
     margin: 100px 0 20px 0;
 }
-#menuDetail{
+.menuDetail{
     font-style: italic;
     font-weight: 900;
 }
-#menuDetail h1 {
+.menuDetail h1 {
     font-size: 2em;
 }
-#menuDetail h1 span{
+.menuDetail h1 span{
     padding: 10px;
     background: linear-gradient(#e6646580, #9198e580);
     /* -webkit-background-clip: text;
@@ -136,18 +140,19 @@ body.sticky .navbar {
     color: #faf3e9;
     display: inline-block;
     width: 280px;
+    margin-bottom: 10px;
 }
-#menuDetail figure{
-    width: 170px;
+.menuDetail figure{
+    width: 265px;
     margin: 0 auto 50px auto;
     float:left;
     overflow: hidden;
     /* text-align: center; */
 }
-#menuDetail figure:first-child{
+.menuDetail figure:first-child{
     margin-left: 0;
 }
-#menuDetail img{
+.menuDetail img{
     width: 180px;
     height: 180px;
     margin: 0 15px 0 15px;
@@ -162,8 +167,13 @@ body.sticky .navbar {
 }
 .pickyAbout h1{
     padding: 30px 0 0 0;
+    font-size: 2em;
+    font-style: italic;
+    font-weight: 900;
 }
-
+.pickyAbout p{
+    margin: 20px;
+}
 /*-----------------------------------------------
 フッター
 -----------------------------------------------*/
@@ -200,17 +210,18 @@ footer a:hover {
         height: 50%;
     }
     /*------------飲食メニュー------------*/
-    #menuDetail figure{
+    .menuDetail figure{
         width: auto;
     }
-    #menuDetail div{
+    .menuDetail div{
         margin: 0 50px 0 50px;
     }
-    #menuDetail img{
+    .menuDetail img {
         height: 180px;
-        object-fit: cover;
-        object-position: center 90%;
-        padding: 0 25px 0 25px;
+        width: 245px;
+        /* object-fit: cover; */
+        /* object-position: center; */
+        margin: 0 auto;
     }
     .shopMenu {
         width: auto;
@@ -267,7 +278,7 @@ footer a:hover {
 
 @media screen and (min-width: 601px) {
     .navbar{
-        padding: 20px;
+        padding: 15px;
     }
     .navbar a{
         font-size: 1.5em;
