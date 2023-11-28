@@ -7,9 +7,9 @@ body {
     color: #faf3e9;
     font-size: medium;
 }
-/*ーーーーーーーーーーーーーーーーーーーーーーー
+/*-----------------------------------------------
 ヘッダー
-ーーーーーーーーーーーーーーーーーーーーーーーー*/
+-----------------------------------------------*/
 .menu {
     list-style: none;
     display: flex;
@@ -40,14 +40,14 @@ body {
     height: 40px;
 }
 
-/* スクロール時のヘッダースタイル */
+/* スクロル時のヘッダスタイル */
 body.sticky .navbar {
     background-color: #f29b8f;
 }
 
-/*ーーーーーーーーーーーーーーーーーーーーーーー
+/*-----------------------------------------------
 ハンバーガー
-ーーーーーーーーーーーーーーーーーーーーーーーー*/
+-----------------------------------------------*/
 .navbar {
     background-color: #f29b8f;
     padding: 15px;
@@ -73,9 +73,9 @@ body.sticky .navbar {
     font-size: smaller;
 }
 
-/*ーーーーーーーーーーーーーーーーーーーーーーー
+/*-----------------------------------------------
 グラフィック
-ーーーーーーーーーーーーーーーーーーーーーーーー*/
+-----------------------------------------------*/
 .graphic {
     margin-top: 68px;
     height: 940px;
@@ -92,16 +92,9 @@ body.sticky .navbar {
     height: 920px;
     /* width: 100%; */
 }
-.overlay-image {
-    position: absolute;
-    z-index: 999;
-    top: 0;
-    left: 0;
-    margin: 110px auto 0 10px;
-}
-/*ーーーーーーーーーーーーーーーーーーーーーーー
+/*-----------------------------------------------
 お店について
-ーーーーーーーーーーーーーーーーーーーーーーーー*/
+-----------------------------------------------*/
 .aboutShop {
     background-color: #8090c0;
     height: 400px; /* 内容に応じて変更 */
@@ -110,25 +103,37 @@ body.sticky .navbar {
 .aboutShop h1{
     padding-top: 0.6em;
 }
-/*ーーーーーーーーーーーーーーーーーーーーーーー
+/*-----------------------------------------------
 飲食メニュー
-ーーーーーーーーーーーーーーーーーーーーーーーー*/
+-----------------------------------------------*/
 .shopMenu{
     color: #f29b8f;
     width: 510px;
     text-align: center;
     margin: auto;
-    height: 375px;
+    height: 500px;
+}
+.shopMenu article{
+    margin: 100px 0 20px 0;
 }
 #menuDetail{
     font-style: italic;
+    font-weight: 900;
 }
 #menuDetail h1 {
     font-size: 2em;
 }
+#menuDetail h1 span{
+    padding: 10px;
+    background: linear-gradient(#e6646580, #9198e580);
+    /* -webkit-background-clip: text; */
+    -moz-background-clip: text;
+    background-clip: text;
+    color: #faf3e9;
+}
 #menuDetail figure{
     width: 170px;
-    margin: 0 0 15px auto;
+    margin: 0 0 50px auto;
     float:left;
     overflow: hidden;
     /* text-align: center; */
@@ -136,9 +141,9 @@ body.sticky .navbar {
 #menuDetail figure:first-child{
     margin-left: 0;
 }
-/*ーーーーーーーーーーーーーーーーーーーーーーー
+/*-----------------------------------------------
 当店のこだわり
-ーーーーーーーーーーーーーーーーーーーーーーーー*/
+-----------------------------------------------*/
 .pickyAbout {
     background-color: #8090c0;
     height: 400px; /* 内容に応じて変更 */
@@ -148,9 +153,9 @@ body.sticky .navbar {
     padding: 30px 0 0 0;
 }
 
-/*ーーーーーーーーーーーーーーーーーーーーーーー
+/*-----------------------------------------------
 フッター
-ーーーーーーーーーーーーーーーーーーーーーーーー*/
+-----------------------------------------------*/
 footer {
     background-color: #f29b8f;
     color: #faf3e9;
@@ -178,6 +183,25 @@ footer a:hover {
 
 /* レスポンシブなスタイルを追加 */
 @media screen and (max-width: 600px) {
+    #menuDetail figure{
+        width: auto;
+    }
+    #menuDetail div{
+        margin: 0 50px 0 50px;
+    }
+    #menuDetail img{
+        height: 180px;
+        object-fit: cover;
+        object-position: center 90%;
+        padding: 0 50px 0 50px;
+    }
+    .shopMenu {
+        width: auto;
+        height: 1640px;
+    }
+    .shopMenu article {
+        margin: 60px 0 20px 0;
+    }  
     .menu {
         list-style: none;
         display: flex;
@@ -209,10 +233,6 @@ footer a:hover {
         margin: 0 30px 0 auto;
     }
 
-    /* .content {
-        margin-top: 71px;;
-    } */
-    
     .graphic{
         margin-top: 71px;
         height: 410px;
@@ -227,7 +247,7 @@ footer a:hover {
     }
 }
 
-/* 追加: 600px以上の場合はハンバーガーメニューを非表示にする */
+/* 追加: 600px以上の場合はハンバーガメニューを非表示にする */
 @media screen and (min-width: 601px) {
     .menu {
         display: flex !important;
