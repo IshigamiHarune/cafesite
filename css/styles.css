@@ -122,20 +122,16 @@ body.sticky .navbar {
 }
 #menuDetail{
     font-style: italic;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    width: 100%;
 }
 #menuDetail h1 {
     font-size: 2em;
-    width: 100%;
-    text-align: center;
 }
 #menuDetail figure{
-    width: calc(33.333% - 20px); /* 20pxはmargin-rightとmargin-leftの合計 */
-    margin: 0 10px 15px 10px;
-    text-align: center;
+    width: 170px;
+    margin: 0 0 15px auto;
+    float:left;
+    overflow: hidden;
+    /* text-align: center; */
 }
 #menuDetail figure:first-child{
     margin-left: 0;
@@ -213,6 +209,10 @@ footer a:hover {
         margin: 0 30px 0 auto;
     }
 
+    /* .content {
+        margin-top: 71px;;
+    } */
+    
     .graphic{
         margin-top: 71px;
         height: 410px;
@@ -225,10 +225,6 @@ footer a:hover {
     footer a {
         margin: 0 5px; /* リンクのマージンを調整 */
     }
-    
-    #menuDetail figure {
-        width: calc(100% - 20px);
-    }
 }
 
 /* 追加: 600px以上の場合はハンバーガーメニューを非表示にする */
@@ -239,11 +235,5 @@ footer a:hover {
 
     .menu-toggle {
         display: none !important;
-    }
-}
-
-@media screen and (max-width: 800px) {
-    #menuDetail figure {
-        width: calc(50% - 20px);
     }
 }
