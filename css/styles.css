@@ -155,7 +155,7 @@ body.sticky .navbar {
 .menuDetail img{
     width: 180px;
     height: 180px;
-    margin: 0 15px 0 15px;
+    /* margin: 0 15px 0 15px; */
 }
 /*-----------------------------------------------
 当店のこだわり
