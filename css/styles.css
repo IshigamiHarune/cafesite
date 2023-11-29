@@ -264,8 +264,8 @@ footer a:hover {
     }
     /*------------グラフィック------------*/
     .graphic{
-        margin-top: 71px;
-        height: 410px;
+        /* margin-top: 71px; */
+        height: 444px;
     }
     /*------------フッター------------*/
     footer {
