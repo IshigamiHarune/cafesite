@@ -20,11 +20,11 @@ body {
 
 .menu li {
     margin-right: 20px;
-    background-color: #f29b8f;
+    background-color: #edcc4b;
 }
 
 .menu a {
-    background-color: #f29b8f;
+    background-color: #edcc4b;
     text-decoration: none;
     color: #faf3e9;
     font-weight: bold;
@@ -43,14 +43,14 @@ body {
 
 /* スクロル時のヘッダスタイル */
 body.sticky .navbar {
-    background-color: #f29b8f;
+    background-color: #edcc4b;
 }
 
 /*-----------------------------------------------
 ハンバーガー
 -----------------------------------------------*/
 .navbar {
-    background-color: #f29b8f;
+    background-color: #edcc4b;
     padding: 15px;
     display: flex;
     justify-content: space-between;
@@ -115,7 +115,7 @@ body.sticky .navbar {
 飲食メニュー
 -----------------------------------------------*/
 .shopMenu{
-    color: #f29b8f;
+    color: #edcc4b;
     width: 768px;
     text-align: center;
     margin: auto;
@@ -178,7 +178,7 @@ body.sticky .navbar {
 フッター
 -----------------------------------------------*/
 footer {
-    background-color: #f29b8f;
+    background-color: #edcc4b;
     color: #faf3e9;
     text-align: center;
     /* position: fixed; */
