@@ -1,4 +1,4 @@
-@import url(common.css);
+.@import url(common.css);
 @import url(reset.css);
 
 body {
@@ -97,7 +97,7 @@ body.sticky .navbar {
 お店について
 -----------------------------------------------*/
 .aboutShop {
-    background-color: #8090c0;
+    background-color: #da643c;
     height: 570px; /* 内容に応じて変更 */
     text-align: center;
 }
@@ -161,7 +161,7 @@ body.sticky .navbar {
 当店のこだわり
 -----------------------------------------------*/
 .pickyAbout {
-    background-color: #8090c0;
+    background-color: #da643c;
     height: 570px; /* 内容に応じて変更 */
     text-align: center;
 }
