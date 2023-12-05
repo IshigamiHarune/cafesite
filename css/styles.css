@@ -89,7 +89,7 @@ body.sticky .navbar {
 -----------------------------------------------*/
 .aboutShop {
     background-color: #da643c;
-    height: 420px;
+    height: 500px;
     text-align: center;
     color: #edcc4b;
 }
@@ -102,6 +102,9 @@ body.sticky .navbar {
 } */
 .aboutShop p{
     margin: 20px;
+}
+.aboutShop h1{
+    margin: 0 0 20px 0;
 }
 /*-----------------------------------------------
 飲食メニュー
