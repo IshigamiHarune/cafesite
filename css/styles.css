@@ -236,7 +236,7 @@ footer p{
         height: 60%;
     }
     .aboutShop {
-        height: 260px;
+        height: 305px;
     }
     /*------------飲食メニュー------------*/
     .menuDetail figure{
@@ -255,10 +255,14 @@ footer p{
     }
     .shopMenu {
         width: auto;
-        height: 1650px;
+        height: 1690px;
     }
     .shopMenu article {
-        margin: 60px 0 20px 0;
+        margin: 0 0 20px 0;
+    }
+    .shopMenu img{
+        width: 60%;
+        height: 60%;
     }
     /*------------ヘッダー------------*/
     .menu {
@@ -296,6 +300,9 @@ footer p{
     .list {
         width: auto;
         padding: 0 0 0 30px;
+    }
+    .pickeyAbout{
+        height: 540px;
     }
     /*------------フッター------------*/
     footer {
