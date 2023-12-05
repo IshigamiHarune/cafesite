@@ -175,16 +175,16 @@ body.sticky .navbar {
     list-style-type: none;
     padding: 10px;
     margin: 0 auto 0 auto;
-    width: 650px;
+    width: 530px;
 }
 .item {
-    margin: 5px;
+    margin: 15px;
     float: left;
     width: calc(50% - 10px);
     height: 115px;
 }
 .number{
-    width: 30%;
+    width: 20%;
     font-size: 100px;
 }
 .content{
