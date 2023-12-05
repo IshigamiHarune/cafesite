@@ -286,6 +286,7 @@ footer p{
     /*------------当店のこだわり------------*/
     .list {
         width: auto;
+        padding: 0 0 0 30px;
     }
 
 
