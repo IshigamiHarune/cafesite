@@ -76,9 +76,6 @@ body.sticky .navbar {
 グラフィック
 -----------------------------------------------*/
 .graphic {
-    /* margin-top: 68px; */
-    height: 940px;
-    /* position: relative; */
     top: 0;
     left: 0;
     z-index: 1;
