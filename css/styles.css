@@ -89,9 +89,9 @@ body.sticky .navbar {
 -----------------------------------------------*/
 .aboutShop {
     background-color: #da643c;
-    height: 570px; /* 内容に応じて変更 */
+    height: 420px;
     text-align: center;
-    color: #edcc4b;
+    color: #edcc4b;.
 }
 .aboutShop h1{
     padding-top: 20px;
@@ -229,6 +229,9 @@ footer p{
         width: 60%;
         height: 60%;
     }
+    .aboutShop {
+        height: 260px;
+    }
     /*------------飲食メニュー------------*/
     .menuDetail figure{
         width: auto;
@@ -288,8 +291,6 @@ footer p{
         width: auto;
         padding: 0 0 0 30px;
     }
-
-
     /*------------フッター------------*/
     footer {
         font-size: smaller;
