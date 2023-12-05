@@ -114,10 +114,13 @@ body.sticky .navbar {
     width: 768px;
     text-align: center;
     margin: auto;
-    height: 680px;
+    height: 700px;
 }
 .shopMenu article{
-    margin: 100px 0 20px 0;
+    margin: 0;
+}
+.shopMenu h1{
+    margin: 20px 0 20px 0;
 }
 .menuDetail{
     font-style: italic;
