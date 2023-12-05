@@ -304,6 +304,9 @@ footer p{
     .pickeyAbout{
         height: 540px;
     }
+    p {
+    font-size: 14px;
+    }
     /*------------フッター------------*/
     footer {
         font-size: smaller;
