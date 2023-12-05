@@ -86,10 +86,6 @@ body.sticky .navbar {
 #graphic {
     position: relative;
     overflow: hidden;
-    width: 100%;
-    max-width: 900px;
-    height: 920px;
-    /* width: 100%; */
 }
 /*-----------------------------------------------
 お店について

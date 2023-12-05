@@ -1,5 +1,5 @@
 #graphic {
-	/* width: 480px; */
+	width: 700px;
 	margin:100px auto 30px auto
 }
 #graphic ul {
@@ -41,7 +41,7 @@
 #graphic ul li img {
 	vertical-align: middle; /* 画像を垂直方向に中央寄せにする */
 	height: auto; /* アスペクト比を維持して高さが自動調整されるように設定 */
-    width: 80%; /* 幅も自動調整されるように設定 */
+    width: 100%; /* 幅も自動調整されるように設定 */
 }
   
 @media screen and (max-width: 600px) {
