@@ -188,7 +188,7 @@ body.sticky .navbar {
     font-size: 100px;
 }
 .content{
-    padding: 20px;
+    padding: 20px 0 20px 0;
 }
 /*-----------------------------------------------
 フッター
