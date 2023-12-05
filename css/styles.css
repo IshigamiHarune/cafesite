@@ -286,7 +286,9 @@ footer a:hover {
         font-size: 1.5em;
         font-weight: bold;
     }
-
+    .navbar a:hover{
+        text-decoration:underline #BD1A22;
+    }
     /* 600px以上の場合はハンバーガメニューを非表示にする */
     .menu {
         display: flex !important;
