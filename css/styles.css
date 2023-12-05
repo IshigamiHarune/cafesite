@@ -283,6 +283,13 @@ footer p{
     .access img{
         width: 70%;;
     }
+    /*------------コンタクト------------*/
+    .contact input{
+        width: 50px;
+    }
+    .contact textarea{
+        width: 50px;
+    }
     /*------------ヘッダー------------*/
     .menu {
         list-style: none;
