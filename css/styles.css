@@ -304,6 +304,10 @@ footer p{
     .pickeyAbout{
         height: 540px;
     }
+    .piceyAbout h1{
+        width: 60%;
+        height: 60%;
+    }
     p {
     font-size: 14px;
     }
