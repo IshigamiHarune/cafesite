@@ -171,6 +171,22 @@ body.sticky .navbar {
 .pickyAbout p{
     margin: 20px;
 }
+.list {
+    list-style-type: none;
+    padding: 10px;
+    margin: 0 auto 0 auto;
+    width: 650px;
+}
+.item {
+    margin: 5px;
+    float: left;
+    width: calc(50% - 10px);
+    height: 115px;
+}
+.number{
+    width: 30%;
+    font-size: 100px;
+}
 /*-----------------------------------------------
 フッター
 -----------------------------------------------*/
@@ -264,6 +280,11 @@ footer p{
         /* margin: 0 0 0 auto; */
     }
     /*------------グラフィック------------*/
+    /*------------当店のこだわり------------*/
+    .list {
+        width: auto;
+    }
+
 
     /*------------フッター------------*/
     footer {
