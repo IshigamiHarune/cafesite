@@ -207,8 +207,8 @@ footer p{
 @media screen and (max-width: 600px) {
     /*------------お店について------------*/
     .aboutShop img {
-        width: 50%;
-        height: 50%;
+        width: 60%;
+        height: 60%;
     }
     /*------------飲食メニュー------------*/
     .menuDetail figure{
@@ -264,10 +264,7 @@ footer p{
         /* margin: 0 0 0 auto; */
     }
     /*------------グラフィック------------*/
-    .graphic{
-        /* margin-top: 71px; */
-        height: 444px;
-    }
+
     /*------------フッター------------*/
     footer {
         font-size: smaller;
