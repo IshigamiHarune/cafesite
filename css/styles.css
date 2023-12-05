@@ -157,6 +157,7 @@ body.sticky .navbar {
 .menuDetail img{
     width: 180px;
     height: 180px;
+    object-fit: cover;
     /* margin: 0 15px 0 15px; */
 }
 /*-----------------------------------------------
