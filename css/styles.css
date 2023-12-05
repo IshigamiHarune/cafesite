@@ -96,10 +96,6 @@ body.sticky .navbar {
 .aboutShop h1{
     padding-top: 20px;
 }
-/* .aboutShop img{
-    width: 500px;
-    height: 300px;
-} */
 .aboutShop p{
     margin: 20px;
 }
@@ -132,9 +128,6 @@ body.sticky .navbar {
 .menuDetail h1 span{
     padding: 10px;
     background: linear-gradient(#46ab64, #224f90);
-    /* -webkit-background-clip: text;
-    -moz-background-clip: text;
-    background-clip: text; */
     color: #edcc4b;
     display: inline-block;
     width: 280px;
@@ -170,9 +163,6 @@ body.sticky .navbar {
 }
 .pickyAbout h1{
     padding: 30px 0 0 0;
-    font-size: 2em;
-    font-style: italic;
-    font-weight: 900;
 }
 .pickyAbout p{
     margin: 20px;
@@ -195,6 +185,30 @@ body.sticky .navbar {
 }
 .content{
     padding: 20px 0 20px 0;
+}
+/*-----------------------------------------------
+アクセス
+-----------------------------------------------*/
+.access{
+    color: #edcc4b;
+    text-align: center;
+    height: 355px;
+    margin: 20px auto 20px auto;
+}
+.access h1{
+    margin: 20px 0 20px 0;
+}
+/*-----------------------------------------------
+コンタクト
+-----------------------------------------------*/
+.contact {
+    background-color: #da643c;
+    height: 400px; /* 内容に応じて変更 */
+    text-align: center;
+    color: #edcc4b;
+}
+.contact img{
+    margin: 20px 0 20px 0;
 }
 /*-----------------------------------------------
 フッター
@@ -249,13 +263,11 @@ footer p{
     .menuDetail img {
         height: 180px;
         width: 245px;
-        /* object-fit: cover; */
-        /* object-position: center; */
         margin: 0 auto;
     }
     .shopMenu {
         width: auto;
-        height: 1350px;
+        height: 1390px;
     }
     .shopMenu article {
         margin: 0 0 20px 0;
@@ -263,6 +275,13 @@ footer p{
     .shopMenu img{
         width: 60%;
         height: 60%;
+    }
+    /*------------アクセス------------*/
+    .access{
+        height: 310px;
+    }
+    .access img{
+        width: 70%;;
     }
     /*------------ヘッダー------------*/
     .menu {
