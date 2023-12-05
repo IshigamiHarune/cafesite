@@ -148,6 +148,9 @@ body.sticky .navbar {
     overflow: hidden;
     /* text-align: center; */
 }
+.menuDetail figcaption{
+    color: #BD1A22;
+}
 .menuDetail figure:first-child{
     margin-left: 0;
 }
