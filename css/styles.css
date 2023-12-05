@@ -288,7 +288,7 @@ footer p{
     .contact textarea{
         width: 50px;
     }
-    ・contact img{
+    .contact img{
         width: 60%;
     }
     /*------------ヘッダー------------*/
@@ -331,9 +331,8 @@ footer p{
     .pickeyAbout{
         height: 540px;
     }
-    .piceyAbout img{
+    .pickyAbout img{
         width: 60%;
-        height: 60%;
     }
     p {
     font-size: 14px;
