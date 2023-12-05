@@ -203,6 +203,10 @@ footer a:hover {
     text-decoration: underline;
 }
 
+footer p{
+    margin: 10px;
+}
+
 /* レスポンシブなスタイルを追加 */
 @media screen and (max-width: 600px) {
     /*------------お店について------------*/
