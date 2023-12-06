@@ -6,7 +6,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 }
 ?>
  
-<form action="php/send.php" method="post">
+<form action="" method="post">
     <input type="hidden" name="name" value="<?php echo $name; ?>">
     <input type="hidden" name="email" value="<?php echo $mail; ?>">
     <input type="hidden" name="inquiry" value="<?php echo $content; ?>">
