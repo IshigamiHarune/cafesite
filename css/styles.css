@@ -229,6 +229,9 @@ height:30px;
 width:100px;
 }
 .submit_btn{
+    border: 0px;
+    width:200px;
+    height:100px;
     background: url(images/sendbutton.png) left top no-repeat;
 }
 /*-----------------------------------------------
