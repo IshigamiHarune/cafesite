@@ -207,6 +207,9 @@ body.sticky .navbar {
     color: #edcc4b;
     text-align: left;
 }
+.contact h1{
+    text-align: center;
+}
 .contact img{
     margin: 20px 0 20px 0;
 }
