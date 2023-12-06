@@ -48,7 +48,7 @@ EOM;
     $fromName = "ふくふく";
     $header = "From: " . mb_encode_mimeheader($fromName) . "<{$fromEmail}>";
     mb_send_mail("harune.ishigami@gmail.com", $subject, $body, $header);
-    header("Location: 送信完了画面のURL");
+    header("Location: send.php");
     exit;
 }
 ?>
