@@ -224,6 +224,10 @@ body.sticky .navbar {
     border-radius: 0;
     border: 1px solid gray;
 }
+.button{
+height:30px;
+width:100px;
+}
 /*-----------------------------------------------
 フッター
 -----------------------------------------------*/
