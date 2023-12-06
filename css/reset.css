@@ -224,10 +224,8 @@ iframe {
  */
 
 button,
-input,
 optgroup,
-select,
-textarea {
+select {
   -webkit-appearance: none; /* 1 */
   appearance: none;
   vertical-align: middle;
