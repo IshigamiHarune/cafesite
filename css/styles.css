@@ -228,6 +228,9 @@ body.sticky .navbar {
 height:30px;
 width:100px;
 }
+.submit_btn{
+    background: url(images/sendbutton.png) left top no-repeat;
+}
 /*-----------------------------------------------
 フッター
 -----------------------------------------------*/
