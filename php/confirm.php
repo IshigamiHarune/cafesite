@@ -11,7 +11,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <input type="hidden" name="email" value="<?php echo $mail; ?>">
     <input type="hidden" name="inquiry" value="<?php echo $content; ?>">
     <h2 class="contact-title">お問い合わせ 内容確認</h2>
-    <p>お問い合わせ内容はこちらで宜しいでしょうか？<br>よろしければ「送信する」ボタンを押して下さい。</p>
+    <p>お問い合わせ内容はこちらでよろしいでしょうか？<br>よろしければ「送信する」ボタンを押して下さい。</p>
     <div>
         <label>お名前</label>
         <p><?php echo $name; ?></p>
@@ -25,7 +25,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <p><?php echo $item; ?></p>
     </div>
     <input class="btn" type="button" value="内容を修正する" onclick="history.back(-1)">
-    <button class="btn" type="submit" name="submit">送信する</button>
+    <button class="btn" type="submit" name="submit"><img src="../images/sendbutton.png" alt="送信する"></button>
 </form>
  
 <?php
