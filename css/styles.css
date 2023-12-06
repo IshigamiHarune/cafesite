@@ -301,6 +301,9 @@ footer p{
     .contact img{
         width: 60%;
     }
+    .contact form {
+        width: auto;
+    }
     /*------------ヘッダー------------*/
     .menu {
         list-style: none;
