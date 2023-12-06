@@ -228,12 +228,12 @@ body.sticky .navbar {
 height:30px;
 width:100px;
 }
-.submit_button{
+/* .submit_button{
     border: 0px;
     width:225px;
     height:187px;
     background: url(images/sendbutton.png) left top no-repeat;
-}
+} */
 /*-----------------------------------------------
 フッター
 -----------------------------------------------*/
