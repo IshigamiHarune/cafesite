@@ -207,7 +207,7 @@ body.sticky .navbar {
     color: #edcc4b;
     text-align: left;
 }
-.contact h1{
+.contact h1, input[type="submit"]{
     text-align: center;
 }
 .contact img{
@@ -219,9 +219,6 @@ body.sticky .navbar {
 }
 .contact input{
     margin: 10px;
-}
-input[type="submit"]{
-    text-align: right;
 }
 /*-----------------------------------------------
 フッター
