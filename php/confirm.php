@@ -44,11 +44,11 @@ if (isset($_POST["submit"])) {
 {$content}
 ===================================================
 EOM;
-    $fromEmail = "送信元のメールアドレス";
+    $fromEmail = "harune.ishigami@gmail.com";
     $fromName = "ふくふく";
     $header = "From: " . mb_encode_mimeheader($fromName) . "<{$fromEmail}>";
-    mb_send_mail("harune.ishigami@gmail.com", $subject, $body, $header);
-    header("Location: send.php");
+    mb_send_mail($fromEmail, $subject, $body, $header);
+    header("Location:sended.php");
     exit;
 }
 ?>
