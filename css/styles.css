@@ -292,11 +292,8 @@ footer p{
         width: 60%;
     }
     /*------------コンタクト------------*/
-    .contact input{
-        width: 50px;
-    }
     .contact textarea{
-        width: 50px;
+        width: 80%;
     }
     .contact img{
         width: 60%;
