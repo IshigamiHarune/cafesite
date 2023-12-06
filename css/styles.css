@@ -205,7 +205,7 @@ body.sticky .navbar {
     background-color: #da643c;
     height: 400px; /* 内容に応じて変更 */
     color: #edcc4b;
-    text-align: left;
+    text-align: center;
 }
 .contact h1, form input[type="submit"]{
     text-align: center;
