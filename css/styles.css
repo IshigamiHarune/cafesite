@@ -207,7 +207,7 @@ body.sticky .navbar {
     color: #edcc4b;
     text-align: left;
 }
-.contact h1, input[type="submit"]{
+.contact h1, form input[type="submit"]{
     text-align: center;
 }
 .contact img{
