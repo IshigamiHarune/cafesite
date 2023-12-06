@@ -220,6 +220,9 @@ body.sticky .navbar {
 .contact input{
     margin: 10px;
 }
+input[type="submit"]{
+    text-align: right;
+}
 /*-----------------------------------------------
 フッター
 -----------------------------------------------*/
