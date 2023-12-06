@@ -217,8 +217,12 @@ body.sticky .navbar {
     width: 504px;
     margin: 0 auto;
 }
-.contact input{
+.contact input, .contact textarea{
     margin: 10px;
+    -webkit-appearance: none;
+    outline: none;
+    border-radius: 0;
+    border: 1px solid gray;
 }
 /*-----------------------------------------------
 フッター
