@@ -204,8 +204,8 @@ body.sticky .navbar {
 .contact {
     background-color: #da643c;
     height: 400px; /* 内容に応じて変更 */
-    text-align: center;
     color: #edcc4b;
+    text-align: left;
 }
 .contact img{
     margin: 20px 0 20px 0;
