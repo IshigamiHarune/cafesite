@@ -32,7 +32,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 if (isset($_POST["submit"])) {
     mb_language("ja");
     mb_internal_encoding("UTF-8");
-    $subject = {$name} 様からのお問い合わせ;
+    $subject = "{$name} 様からのお問い合わせ";
     $body = <<< EOM
 {$name} 様からのお問い合わせ
 ===================================================
