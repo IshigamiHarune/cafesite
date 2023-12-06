@@ -294,6 +294,7 @@ footer p{
     /*------------コンタクト------------*/
     .contact textarea{
         width: 80%;
+        height: 320px;
     }
     .contact img{
         width: 60%;
