@@ -9,7 +9,7 @@
 <body>
 
 <div class="navbar">
-    <div class="shopLogo"><a href="https://ishigamiharune.github.io"></a><img src="images/miniicon.png"></div>
+    <div class="shopLogo"><a href="https://ishigamiharune.github.io"><img src="images/miniicon.png"></a></div>
     <div class="menu-toggle" onclick="toggleMenu()">
         <div class="bar"></div>
         <div class="bar"></div>
@@ -35,14 +35,16 @@
     </div>
 </div>
 
-<div class="aboutShop" id="about">
+<div class="aboutShop">
     <h1><img src="images/about.png" alt="福福について"></h1>
+<article>
     <div><img src="images/aboutshop.png" alt=""></a></div>
     <p>当店は海外流行フード＆カフェ、<br>写真映えをテーマにしたお店です。<br>
     愉快な店長が皆様をお迎えします！</p>
+</article>
 </div>
 
-<div class="shopMenu" id="menu">
+<div class="shopMenu">
     <h1><img src="images/menu.png" alt="メニュー"></h1>
     <article>
         <div class="menuDetail">
@@ -82,54 +84,51 @@
     </article>
 </div>
 
-<div class="pickyAbout" id="pickyAbout">
+<div class="pickyAbout">
     <h1><img src="images/kodawari.png" alt="こだわり"></h1>
-    <ul class="list">
-        <li class="item number">
-            1
+<article>
+    <ol class="list">
+        <li class="item1">
+            <div>食材はほぼオーガニック</div>
         </li>
-        <li class="item content">
-            食材はほぼオーガニック
+        <li class="item2">
+            <div>かわいくておいしい時間の提供</div>
         </li>
-        <li class="item number">
-            2
+        <li class="item3">
+            <div>カフェメニューにも力を入れています</div>
         </li>
-        <li class="item content">
-            かわいくておいしい時間の提供
-        </li>
-        <li class="item number">
-            3
-        </li>
-        <li class="item content">
-            カフェメニューにも力を入れています
-        </li>
-    </ul>
+    </ol>
+</article>
 </div>
 
-<div class="access" id="access">
+<div class="access">
     <h1><img src="images/access.png" alt="アクセス"></h1>
+<article>
         <div>
             <img src="images/map.png" alt="地図"></h1>
         </div>
+</article>
 </div>
 
-<div class="contact" id="contact">
+<div class="contact">
     <h1><img src="images/contact.png" alt="コンタクト"></h1>
+<article>
     <form action="php/confirm.php" method="post" name="submit">
         <label>
         お名前：
-        <input type="text" name="name" size="30" value="" placeholder="お名前" required><br>
+        <input type="text" name="name" size="30" value="" placeholder="お名前またはニックネーム" required><br>
         </label>
         <label>
         メール：
-        <input type="email" name="mail" size="30" value="" placeholder="メールアドレス" required><br>
+        <input type="email" name="mail" size="30" value="" placeholder="222@123.com" required><br>
         </label>
         <label>
         お問合せ内容：
         <textarea name="inquiry" cols="70" rows="5" placeholder="お問合せ内容" required></textarea><br>
         </label>
-        <button class="btn" type="submit"><img src="images/sendbutton.png" alt="送信する"></button>
+        <button class="btn" type="submit"><img src="images/sendbutton.png" alt="確認する"></button>
     </form>
+</article>
 </div>
 
 <footer>
@@ -137,7 +136,7 @@
         <a href="#about">お店について</a>
         <a href="#access">ご連絡</a>
     </nav>
-    <p>&copy; 2023 Cháoyáng Cafe & Bar</p>
+    <p>&copy; 2023 FUKUFUKU Cafe & Bar</p>
 </footer>
 
 <script src="js/script.js"></script>

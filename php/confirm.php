@@ -5,27 +5,29 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $content = $_POST["inquiry"];
 }
 ?>
- 
+
+<link rel="stylesheet" href="../css/php.css">
 <form action="" method="post">
     <input type="hidden" name="name" value="<?php echo $name; ?>">
     <input type="hidden" name="mail" value="<?php echo $mail; ?>">
     <input type="hidden" name="inquiry" value="<?php echo $content; ?>">
-    <h2 class="contact-title">お問い合わせ 内容確認</h2>
+    <h2 class="contact-title">【お問い合わせ内容確認】</h2>
     <p>お問い合わせ内容はこちらでよろしいでしょうか？<br>よろしければ「送信する」ボタンを押して下さい。</p>
     <div>
-        <label>お名前</label>
-        <p><?php echo $name; ?></p>
+        <label>【お名前】</label><br>
+        <?php echo $name; ?>
     </div>
     <div>
-        <label>メールアドレス</label>
-        <p><?php echo $mail; ?></p>
+        <label>【メールアドレス】</label><br>
+        <?php echo $mail; ?>
     </div>
     <div>
-        <label>お問い合わせ内容</label>
-        <p><?php echo $content; ?></p>
+        <label>【お問い合わせ内容】</label><br>
+        <?php echo $content; ?>
     </div>
+
     <input class="btn" type="button" value="内容を修正する" onclick="history.back(-1)">
-    <button class="btn" type="submit" name="submit"><img src="../images/sendbutton.png" alt="送信する"></button>
+    <button class="btn" type="submit" name="submit">送信する</button>
 </form>
  
 <?php
@@ -44,10 +46,10 @@ if (isset($_POST["submit"])) {
 {$content}
 ===================================================
 EOM;
-    $fromEmail = "harune.ishigami@gmail.com";
-    $fromName = "ふくふく";
-    $header = "From: " . mb_encode_mimeheader($fromName) . "<{$fromEmail}>";
-    mb_send_mail($fromEmail, $subject, $body, $header);
+
+$to = "harune.ishigami@gmail.com";
+
+    mb_send_mail($to, $subject, $body);
     header("Location:sended.php");
     exit;
 }
