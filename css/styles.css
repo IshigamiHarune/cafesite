@@ -211,6 +211,14 @@ body.sticky .navbar {
     height: 120px;
 }
 
+.pickyAbout li.item1 div,
+.pickyAbout li.item2 div,
+.pickyAbout li.item3 div {
+    width: 80%;
+    margin: 35px 0 0 80px;
+    text-align: center;
+}
+
 /*-----------------------------------------------
 アクセス
 -----------------------------------------------*/
@@ -411,8 +419,6 @@ footer p {
     .pickyAbout li.item1 div,
     .pickyAbout li.item2 div,
     .pickyAbout li.item3 div {
-        width: 80%;
-        margin: 35px 0 0 80px;
         text-align: left;
     }
 
