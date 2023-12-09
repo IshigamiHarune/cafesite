@@ -180,6 +180,8 @@ body.sticky .navbar {
 
 .pickeyAbout h1 {
     margin: 20px;
+    margin: 10px auto 20px auto;
+    width: 350px;
 }
 
 .pickyAbout p {
