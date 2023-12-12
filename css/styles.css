@@ -268,37 +268,6 @@ form input[type="submit"] {
     border-radius: 0;
     border: 1px solid gray;
 }
-
-/*ホバー時---------------------------------------------*/
-.btn {
-	position: relative;
-	width: 100px;
-	height: 30px;
-	margin: 0 auto;
-	display: block;
-	border-radius: 12px;
-	overflow: hidden;
-	cursor: pointer;
-}
-.btn img {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	-webkit-transform: translate(-50%, -50%);
-	transform: translate(-50%, -50%);
-	width: 100%;
-	display: block;
-	-webkit-transition: .4s ease-in-out;
-	transition: .4s ease-in-out;
-}
-.btn img:nth-of-type(2) {
-	top: 200%;
-}
-.btn:hover img:nth-of-type(2) {
-	top: 50%;
-}
-
-
 /*-----------------------------------------------
 フッター
 -----------------------------------------------*/
@@ -483,4 +452,33 @@ footer p {
     .menu-toggle {
         display: none !important;
     }
+
+/*確認ボタンホバー時---------------------------------------------*/
+.btn {
+	position: relative;
+	width: 100px;
+	height: 30px;
+	margin: 0 auto;
+	display: block;
+	border-radius: 12px;
+	overflow: hidden;
+	cursor: pointer;
+}
+.btn img {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	width: 100%;
+	display: block;
+	-webkit-transition: .4s ease-in-out;
+	transition: .4s ease-in-out;
+}
+.btn img:nth-of-type(2) {
+	top: 200%;
+}
+.btn:hover img:nth-of-type(2) {
+	top: 50%;
+}
 }
