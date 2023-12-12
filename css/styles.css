@@ -475,10 +475,6 @@ footer p {
         text-decoration: underline #BD1A22;
     }
 
-    .contact button img {
-        width: 80%;
-    }
-
     /* 600px以上の場合はハンバーガメニューを非表示にする */
     .menu {
         display: flex !important;
