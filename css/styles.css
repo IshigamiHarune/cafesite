@@ -274,6 +274,11 @@ form input[type="submit"] {
     width: 100px;
 }
 
+.btn:hover {
+    background-image: url(../images/sendbutton_hover.png);
+}
+
+
 /*-----------------------------------------------
 フッター
 -----------------------------------------------*/
