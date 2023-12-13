@@ -279,9 +279,6 @@ form input[type="submit"] {
 	cursor: pointer;
 }
 
-.contact .sendbuttonHover{
-	display:none;
-}
 /*-----------------------------------------------
 フッター
 -----------------------------------------------*/
@@ -365,6 +362,10 @@ footer p {
 
     .contact .sendbutton{
 	width: 80%
+    }
+	
+    .contact .sendbuttonHover{
+	display:none;
     }
 
     .contact form {
