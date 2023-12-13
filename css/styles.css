@@ -279,7 +279,7 @@ form input[type="submit"] {
 	cursor: pointer;
 }
 
-.sendbuttonHover{
+.contact .sendbuttonHover{
 	display:none;
 }
 /*-----------------------------------------------
@@ -363,7 +363,7 @@ footer p {
         width: 60%;
     }
 
-    .contact img.sendbuttonHover{
+    .contact .sendbuttonHover{
 	width: 70%
     }
 
