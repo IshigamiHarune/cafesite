@@ -278,6 +278,10 @@ form input[type="submit"] {
 	overflow: hidden;
 	cursor: pointer;
 }
+
+.sendbuttonHover{
+	display:none;
+}
 /*-----------------------------------------------
 フッター
 -----------------------------------------------*/
@@ -357,6 +361,10 @@ footer p {
 
     .contact img {
         width: 60%;
+    }
+
+    .contact img.sendbuttonHover{
+	width: 70%
     }
 
     .contact form {
