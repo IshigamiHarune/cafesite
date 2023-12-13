@@ -456,7 +456,7 @@ footer p {
 /*確認ボタンホバー時---------------------------------------------*/
 .btn {
 	position: relative;
-	width: 100px;
+	width: 101px;
 	height: 53px;
 	margin: 0 auto;
 	display: block;
