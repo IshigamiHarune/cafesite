@@ -1,5 +1,4 @@
 @charset "utf-8";
-@import url(reset.css);
 @import url(graphic.css);
 
 body {
@@ -7,10 +6,11 @@ body {
     font-family: 'Arial', sans-serif;
     background-color: #faf3e9;
     font-size: medium;
+    text-align: center;
 }
 
-article {
-    padding: 0 0 10px 0;
+h1 {
+    padding: 2.5rem 0 0.5rem 0;
 }
 
 /*-----------------------------------------------
@@ -24,7 +24,6 @@ article {
 }
 
 .menu li {
-    /* margin-right: 20px; */
     background-color: #edcc4b;
 }
 
@@ -33,7 +32,7 @@ article {
     color: #BD1A22;
     font-weight: bold;
     display: block;
-    padding: 10px;
+    padding: 0.5rem;
 }
 
 .menu-toggle {
@@ -42,7 +41,7 @@ article {
 }
 
 .shopLogo img {
-    height: 42px;
+    height: 3rem;
 }
 
 /* スクロール時のヘッダスタイル */
@@ -90,27 +89,17 @@ body.sticky .navbar {
 #graphic {
     position: relative;
     overflow: hidden;
+    padding-top: 3rem;
 }
 
 /*-----------------------------------------------
 お店について
 -----------------------------------------------*/
-.aboutShop {
-    background-color: #da643c;
-    text-align: center;
-    color: #edcc4b;
-}
-
-.aboutShop h1 {
-    padding-top: 20px;
-}
-
 .aboutShop p {
-    margin: 20px;
+    margin: 1rem 0;
 }
-
-.aboutShop h1 {
-    margin: 0 0 20px 0;
+.aboutShop img{
+    width: 50%;
 }
 
 /*-----------------------------------------------
@@ -118,14 +107,12 @@ body.sticky .navbar {
 -----------------------------------------------*/
 .shopMenu {
     color: #edcc4b;
-    width: 768px;
-    text-align: center;
     margin: auto;
-    padding: 0 0 200px 0;
+    width: 48rem;
 }
 
-.shopMenu h1 {
-    margin: 20px 0 20px 0;
+.shopMenu figure img{
+    width: 100%;
 }
 
 .menuDetail {
@@ -133,150 +120,59 @@ body.sticky .navbar {
     font-weight: 900;
 }
 
-.menuDetail h1 {
-    font-size: 2em;
-}
-
-.menuDetail h1 span {
-    padding: 10px;
+.menuDetail h2 span {
+    padding: 1rem;
     background: linear-gradient(#46ab64, #224f90);
     color: #edcc4b;
     display: inline-block;
-    width: 280px;
-    margin-bottom: 10px;
+    width: 18rem;
+    margin-bottom: 1rem;
+    font-size: 2rem;
 }
 
 .menuDetail figure {
-    width: 250px;
-    margin: 0 auto 50px auto;
+    width: 16rem;
     float: left;
-    overflow: hidden;
-    /* text-align: center; */
+    margin-bottom: 3rem;
 }
 
 .menuDetail figcaption {
     color: #BD1A22;
 }
 
-.menuDetail figure:first-child {
-    margin-left: 0;
-}
-
-.menuDetail img {
-    width: 180px;
-    height: 180px;
-    object-fit: cover;
-    /* margin: 0 15px 0 15px; */
-}
-
 /*-----------------------------------------------
 当店のこだわり
 -----------------------------------------------*/
-.pickyAbout {
-    background-color: #da643c;
-    text-align: center;
-    color: #edcc4b;
-}
-
-.pickyAbout h1 {
-    margin: 10px auto 20px auto;
-    width: 70%;
-}
-
-.pickyAbout p {
-    margin: 20px;
-}
-
 .pickyAbout li {
-    list-style-type: none;
-    padding: 10px;
-    margin: 0 auto 0 auto;
-    width: 530px;
-}
-
-.pickyAbout li.item1 {
-    background-image: url(../images/kodawari1.png);
-    background-repeat: no-repeat;
-    height: 120px;
-}
-
-.pickyAbout li.item2 {
-    background-image: url(../images/kodawari2.png);
-    background-repeat: no-repeat;
-    height: 120px;
-}
-
-.pickyAbout li.item3 {
-    background-image: url(../images/kodawari3.png);
-    background-repeat: no-repeat;
-    height: 120px;
-}
-
-.pickyAbout li.item1 div,
-.pickyAbout li.item2 div,
-.pickyAbout li.item3 div {
-    width: 80%;
-    margin: 35px 0 0 80px;
-    text-align: center;
+    padding: 1rem;
 }
 
 /*-----------------------------------------------
 アクセス
 -----------------------------------------------*/
-.access {
-    color: #edcc4b;
-    text-align: center;
-    margin: 20px auto 20px auto;
-}
-
-.access h1 {
-    margin: 20px 0 20px 0;
-}
-
-.access img {
-    margin: 10px 0 0 0;
+.access article div:nth-child(2) {
+    padding-top: 1rem;
 }
 
 /*-----------------------------------------------
 コンタクト
 -----------------------------------------------*/
-.contact {
-    background-color: #da643c;
-    color: #edcc4b;
-    text-align: center;
-}
-
-.contact h1,
-form input[type="submit"] {
-    text-align: center;
-}
-
-.contact h1 img {
-    margin: 20px 0 20px 0;
-}
-
-.contact form {
-    width: 504px;
-    margin: 0 auto;
-}
-
 .contact input,
 .contact textarea {
-    margin: 10px;
-    -webkit-appearance: none;
-    outline: none;
+    margin: 0.5rem;
     border-radius: 0;
     border: 1px solid gray;
 }
 
 .btn {
-	position: relative;
-	width: 101px;
-	height: 53px;
-	margin: 0 auto;
-	display: block;
-	overflow: hidden;
-	cursor: pointer;
+    position: relative;
+    width: 101px;
+    height: 53px;
+    margin: 0 auto;
+    display: block;
+    overflow: hidden;
+    cursor: pointer;
+    margin-bottom: 1rem;
 }
 
 /*-----------------------------------------------
@@ -285,21 +181,20 @@ form input[type="submit"] {
 footer {
     background-color: #edcc4b;
     color: #BD1A22;
-    text-align: center;
     width: 100%;
     font-size: smaller;
-    padding: 1px 0 1px 0;
+    padding: 1rem 0;
 }
 
 footer nav {
-    margin: 10px 0 10px 0;
+    margin: 0.5rem 0;
 }
 
 .navbar a,
 footer a {
     color: #BD1A22;
     text-decoration: none;
-    margin: 0 10px;
+    margin: 0 0.5rem;
     font-size: larger;
 }
 
@@ -307,11 +202,6 @@ footer a:hover {
     text-decoration: underline;
 }
 
-footer p {
-    margin: 10px;
-}
-
-/* レスポンシブなスタイルを追加 */
 @media screen and (max-width: 600px) {
 
     /*------------お店について------------*/
@@ -321,18 +211,11 @@ footer p {
     }
 
     /*------------飲食メニュー------------*/
-    .menuDetail figure {
-        width: auto;
-        float: none;
-    }
-
     .menuDetail div {
-        margin: 0 50px 0 50px;
+        margin: 0 3.5rem;
     }
 
     .menuDetail img {
-        height: 180px;
-        width: 245px;
         margin: 0 auto;
     }
 
@@ -360,12 +243,12 @@ footer p {
         width: 60%;
     }
 
-    .contact .sendbutton{
-	width: 80%
+    .contact .sendbutton {
+        width: 80%
     }
-	
-    .contact .sendbuttonHover{
-	display:none;
+
+    .contact .sendbuttonHover {
+        display: none;
     }
 
     .contact form {
@@ -404,56 +287,30 @@ footer p {
         display: block;
     }
 
-    /*------------グラフィック------------*/
     /*------------当店のこだわり------------*/
     .pickyAbout img {
         width: 60%;
     }
 
-    .pickyAbout h1 {
-        padding: 30px 0 0 0;
-        margin: auto;
-        width: auto;
-    }
-
     .pickyAbout article {
-        padding: 20px;
+        padding: 1rem;
     }
 
     .pickyAbout {
         background-size: 60% auto;
     }
 
-    p {
-        font-size: 14px;
-    }
-
     .pickyAbout li {
         width: auto;
-    }
-
-    .pickyAbout li.item1 div,
-    .pickyAbout li.item2 div,
-    .pickyAbout li.item3 div {
-        text-align: left;
     }
 
     /*------------フッター------------*/
     footer {
         font-size: smaller;
     }
-
-    footer a {
-        margin: 0 5px;
-        /* リンクのマージンを調整 */
-    }
 }
 
 @media screen and (min-width: 601px) {
-    .navbar {
-        padding: 15px;
-    }
-
     .navbar a {
         font-size: 1.5em;
         font-weight: bold;
@@ -463,7 +320,7 @@ footer p {
         text-decoration: underline #BD1A22;
     }
 
-    /* 600px以上の場合はハンバーガメニューを非表示にする */
+    /* 600px以上の場合はハンバーガメニューを非表示 */
     .menu {
         display: flex !important;
     }
@@ -472,30 +329,24 @@ footer p {
         display: none !important;
     }
 
-/*確認ボタンホバー時---------------------------------------------*/
-.btn {
-	position: relative;
-	width: 101px;
-	height: 53px;
-	margin: 0 auto;
-	display: block;
-	overflow: hidden;
-	cursor: pointer;
-}
-.btn img {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	-webkit-transform: translate(-50%, -50%);
-	transform: translate(-50%, -50%);
-	width: 100%;
-	display: block;
-	-webkit-transition: .4s ease-in-out;
-	transition: .4s ease-in-out;
-}
-.btn img:nth-of-type(2) {
-	top: 200%;
-}
-.btn:hover img:nth-of-type(2) {
-	top: 50%;
+    /*確認ボタンホバー時---------------------------------------------*/
+    .btn img {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        width: 100%;
+        display: block;
+        -webkit-transition: .4s ease-in-out;
+        transition: .4s ease-in-out;
+    }
+
+    .btn img:nth-of-type(2) {
+        top: 200%;
+    }
+
+    .btn:hover img:nth-of-type(2) {
+        top: 50%;
+    }
 }
