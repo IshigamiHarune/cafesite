@@ -54,7 +54,7 @@ body.sticky .navbar {
 -----------------------------------------------*/
 .navbar {
     background-color: #edcc4b;
-    padding: 15px;
+    padding: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
