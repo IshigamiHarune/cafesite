@@ -98,7 +98,7 @@ body.sticky .navbar {
 .aboutShop p {
     margin: 1rem 0;
 }
-.aboutShop img{
+.aboutShop article img{
     width: 50%;
 }
 
@@ -118,6 +118,7 @@ body.sticky .navbar {
 .menuDetail {
     font-style: italic;
     font-weight: 900;
+    display: grid;
 }
 
 .menuDetail h2 span {
@@ -125,7 +126,6 @@ body.sticky .navbar {
     background: linear-gradient(#46ab64, #224f90);
     color: #edcc4b;
     display: inline-block;
-    width: 18rem;
     margin-bottom: 1rem;
     font-size: 2rem;
 }
