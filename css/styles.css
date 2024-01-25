@@ -205,7 +205,7 @@ footer a:hover {
 @media screen and (max-width: 600px) {
     /*------------お店について------------*/
     .aboutShop article img {
-        height: 60%;
+        width: 60%;
     }
 
     /*------------飲食メニュー------------*/
