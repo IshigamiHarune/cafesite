@@ -141,13 +141,6 @@ body.sticky .navbar {
 }
 
 /*-----------------------------------------------
-当店のこだわり
------------------------------------------------*/
-.pickyAbout li {
-    padding: 1rem;
-}
-
-/*-----------------------------------------------
 アクセス
 -----------------------------------------------*/
 .access article div:nth-child(2) {
@@ -282,23 +275,6 @@ footer a:hover {
 
     .menu-toggle {
         display: block;
-    }
-
-    /*------------当店のこだわり------------*/
-    .pickyAbout img {
-        width: 70%;
-    }
-
-    .pickyAbout article {
-        padding: 1rem;
-    }
-
-    .pickyAbout {
-        background-size: 60% auto;
-    }
-
-    .pickyAbout li {
-        width: auto;
     }
 
     /*------------フッター------------*/
