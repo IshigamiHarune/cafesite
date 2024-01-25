@@ -98,7 +98,7 @@ body.sticky .navbar {
 .aboutShop p {
     margin: 1rem 0;
 }
-.aboutShop img{
+.aboutShop article img{
     width: 70%;
 }
 
@@ -204,7 +204,7 @@ footer a:hover {
 
 @media screen and (max-width: 600px) {
     /*------------お店について------------*/
-    .aboutShop article img {
+    .aboutShop img {
         width: 60%;
     }
 
@@ -237,7 +237,7 @@ footer a:hover {
     }
 
     .contact img {
-        width: 60%;
+        width: 70%;
     }
 
     .contact .sendbutton {
@@ -286,7 +286,7 @@ footer a:hover {
 
     /*------------当店のこだわり------------*/
     .pickyAbout img {
-        width: 60%;
+        width: 70%;
     }
 
     .pickyAbout article {
