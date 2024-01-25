@@ -98,8 +98,8 @@ body.sticky .navbar {
 .aboutShop p {
     margin: 1rem 0;
 }
-.aboutShop article img{
-    width: 50%;
+.aboutShop img{
+    width: 70%;
 }
 
 /*-----------------------------------------------
@@ -223,7 +223,7 @@ footer a:hover {
     }
 
     .shopMenu img {
-        height: 60%;
+        height: 70%;
     }
 
     /*------------アクセス------------*/
